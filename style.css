@@ -113,7 +113,7 @@ html, body {
 #page1 #data #left h1 span{
     color: red;
     opacity: 0.7;
-    text-shadow: -5px -5px 5px yellow,-10px -10px 5px tomato;
+    text-shadow: -5px -5px 5px yellow;
 }
 #page1 #data #left h5{
     cursor: pointer;
