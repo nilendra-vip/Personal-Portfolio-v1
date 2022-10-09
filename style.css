@@ -42,7 +42,7 @@ html, body {
 marquee{
     /* background-color: red; */
     width: max-content;
-    height:50px;
+    height:max-content;
 }
 #main{
     width: 100%;

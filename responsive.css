@@ -2,6 +2,9 @@
     body{
         overflow-x: hidden;
     }
+    marquee{
+        height:50px;
+    }
     /* Page 1 */
     #page1 #nav i,a{
         font-size: 4vw;
