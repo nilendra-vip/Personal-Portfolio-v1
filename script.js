@@ -47,4 +47,29 @@ slideCircle();
 
 // ------------------------------------------------------------------------------
 
+var page2=[
+    {img1:"./image/img1.jpg" , img2:"./image/img1.jpg"}
+    {img1:"./image/img2.jpg" , img2:"./image/img2.jpg"}
+    {img1:"./image/img3.jpg" , img2:"./image/img3.jpg"}
+    {img1:"./image/img4.jpg" , img2:"./image/img4.jpg"}
+    {img1:"./image/img5.jpg" , img2:"./image/img5.jpg"}
+    {img1:"./image/img6.jpg" , img2:"./image/img6.jpg"}
+    {img1:"./image/img7.jpg" , img2:"./image/img7.jpg"}
+    {img1:"./image/img8.jpg" , img2:"./image/img8.jpg"}
+    {img1:"./image/img9.jpg" , img2:"./image/img9.jpg"}
+    {img1:"./image/img10.jpg" , img2:"./image/img10.jpg"}
+    {img1:"./image/img11.jpg" , img2:"./image/img11.jpg"}
+    {img1:"./image/img12.jpg" , img2:"./image/img2.jpg"}
+    {img1:"./image/img13.jpg" , img2:"./image/img14.jpg"}
+    {img1:"./image/img14.jpg" , img2:"./image/img14.jpg"}
+    {img1:"./image/img15.jpg" , img2:"./image/img15.jpg"}
+]
 
+var clutter="";
+page2.forEach(function(data){
+    clutter+=`<div class="slide">
+                    <img src="${data.img1}">
+                    <img src="${data.img1}.jpg">
+                </div>`
+})
+document.querySelector("#page2 #porjects").innerHTML=clutter;
