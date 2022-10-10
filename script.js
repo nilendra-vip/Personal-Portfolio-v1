@@ -1,5 +1,5 @@
 function slideCircle(){
-    document.querySelectorAll(".slide")
+    document.querySelectorAll(".slide .box")
         .forEach(function(slide){
             slide.addEventListener("mousemove", function(dets){
                 var dim = slide.getBoundingClientRect();

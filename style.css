@@ -226,6 +226,22 @@ marquee{
     object-fit: cover;
     object-position: center;
 }
+#page2 #projects .slide a{
+    text-decoration: none;
+    position: absolute;
+    font-size: 1vw;
+    text-transform: capitalize;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 50px;
+    bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    right: 0;
+    /* transform: translate(-50%,-50%); */
+}
 
 #page2 #projects .slide img:nth-child(1){
     filter: grayscale() brightness(70%);
