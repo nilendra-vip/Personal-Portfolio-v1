@@ -63,15 +63,19 @@ slideCircle();
 //         {img1:"./image/img12.jpg" , img2:"./image/img2.jpg"},
 //         {img1:"./image/img13.jpg" , img2:"./image/img14.jpg"},
 //         {img1:"./image/img14.jpg" , img2:"./image/img14.jpg"},
-//         {img1:"./image/img15.jpg" , img2:"./image/img15.jpg"}
+//         {img1:"./image/img15.jpg" , img2:"./image/img15.jpg"},
+//         {img1:"./image/img16.jpg" , img2:"./image/img16.jpg"}
 //     ]
     
 //     var clutter="";
 //     page2.forEach(function(data){
-//         clutter+=`<div class="slide">
-//                         <img src="${data.img1}">
-//                         <img src="${data.img2}.jpg">
-//                     </div>`
+//         clutter+=` <div class="slide">
+//         <div class="box">
+//             <img src="${data.img1}">
+//             <img src="${data.img2}">
+//         </div>
+//         <a target="_blank" href="https://nilendrapatel1317.github.io/this-is-digital/">visit project  <i class="ri-share-forward-fill"></i></a>
+//     </div>`
 //     })
 //     document.querySelector("#page2 #projects").innerHTML=clutter;
 // }
