@@ -66,6 +66,10 @@
     #page2 #projects .slide{
         width: 90%;
     }
+    #page2 #projects .slide a{
+        font-size: 3vw;
+        padding: 5px;
+    }
     #page2 #swipe h2{
         font-size: 6vw;
     }
