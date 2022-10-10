@@ -27,7 +27,7 @@ function slidesSkewMaker(){
         var diff = prev - dim2.left;
         document.querySelectorAll(".slide")
         .forEach(function(elem){
-            elem.style.transform = `skewX(${diff*.2}deg)`; 
+            elem.style.transform = `skewX(${diff*.1}deg)`; 
         });
         prev = dim2.left;
     })
