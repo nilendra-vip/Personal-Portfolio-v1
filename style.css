@@ -2,6 +2,10 @@
     src: url("./fonts/DELIRIUM\ NCV.ttf");
     font-family: "Delirium NCV";
 }
+@font-face {
+    font-family: burn;
+    src: url(./fonts/burnstown\ dam.ttf);
+}
 
 @font-face{
     src: url("./fonts/Gilroy-Medium.otf");
@@ -183,17 +187,21 @@ marquee{
 
 #page2 #stext{
     padding: 3vw 5vw;
+    height: 30vh;
+    text-align: center;
 }
 
 #page2 #stext h3{
     font-size: 7vw;
     line-height: 1;
-    font-family: "Delirium NCV";
+    font-family: yank;
     font-weight: 100;
+    opacity: 0.8;
 }
 
 #page2 #stext p{
-    width: 40%;
+    /* width: 40%; */
+    font-size: 2vw;
     line-height: 1;
     opacity: .6;
 }
@@ -294,6 +302,9 @@ marquee{
 #page3 #text h1{
     font-size:7vw;
     padding-bottom: 20px;
+}
+#page3 #text h1 span{
+    color: red;
 }
 #page3 #text p{
     font-size: 2vw;
@@ -428,4 +439,113 @@ marquee{
 }
 
 
+/* ------------------------------------------------------------------------------------------------------------------------------------------- */
 
+/* page 5 */
+#page5{
+    width: 100%;
+    height: 100vh;
+    /* background-color: tomato; */
+}
+#page5 #top{
+    width: 100%;
+    height: 30vh;
+    /* background-color: royalblue; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* border-bottom: 1px dashed gray; */
+}
+
+#page5 #top h1{
+    margin-top: -20px;
+    font-size: 7vw;
+    font-family: gilroy;
+    color: chocolate;
+    line-height: 1;
+    font-weight: 600;
+    text-shadow: 10px 10px 20px chocolate;
+}
+#page5 #top h1 span{
+    font-size: 8vw;
+    /* font-family: burn; */
+    line-height: 1;
+    color: springgreen;
+    text-shadow: 10px 10px 20px springgreen;
+}
+#page5 #top h2{
+    font-size: 3vw;
+    font-family: gilroy;
+}
+
+#page5 #bottom{
+    width: 100%;
+    height: 70vh;
+    /* background-color: springgreen; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 30px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    overflow-x: auto;
+    padding: 0 20px; 
+}
+#page5 #bottom::-webkit-scrollbar{
+    display: none;
+}
+#page5 #bottom .box{
+    width: 45%;
+    height: 100%;
+    /* background-color: yellow; */
+    /* border: 1px dashed gray; */
+    /* display: flex;
+    flex-direction: column; */
+}
+
+#page5 #bottom .box .models{
+    width: 100%;
+    height: 80%;
+    /* background-color: tomato; */
+}
+#page5 #bottom .box .models video{
+    width: 100%;
+    height: 100%;
+}
+
+#page5 #bottom .box .text{
+    width: 100%;
+    height: 20%;
+    /* background-color: violet; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 20px;
+}
+#page5 #bottom .box .text h2{
+    font-size: 2vw;
+    font-family: gilroy;
+}
+#page5 #bottom .box .text button{
+    display: flex;
+    align-items: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.5vw;
+    background: linear-gradient();
+    text-transform: capitalize;
+    border-radius: 50px;
+    padding: 5px 10px;
+}
+#page5 #bottom .box .text button i{
+    font-size: 2vw;
+    border: 1px dashed gray;
+    border-radius: 50%;
+    padding: 5px;
+    transition: all 0.5s ease;
+}
+#page5 #bottom .box .text button i:hover{
+    scale: 1.2;
+}
