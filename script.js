@@ -88,16 +88,16 @@ slideCircle();
 // page 5
 
 var page5=[
-    {video:"./videos/batch_process_9.mp4",name:"3D Cube Rotation effect"},
-    {video:"./videos/batch_process_8.mp4",name:"Bubble moving effect"},
-    {video:"./videos/batch_process.mp4",name:"3D Cube Hover effect"}
+    {image:"./gif/img1.gif",name:"3D Cube Rotation effect"},
+    {image:"./gif/img2.gif",name:"Bubble moving effect"},
+    {image:"./gif/img3.gif",name:"3D Cube Hover effect"}
 ]
 
 var clutter="";
 page5.forEach(function(data){
     clutter +=`<div class="box">
                     <div class="models">
-                        <video src="${data.video}" autoplay loop muted></video>
+                    <img src="${data.image}" alt="">
                     </div>
                     <div class="text">
                         <h2>${data.name}</h2>
