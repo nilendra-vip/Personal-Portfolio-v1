@@ -36,7 +36,7 @@
         display: none;
     }
     #main #page1 #circle{
-        top: 65%;
+        top: 63%;
         width: 60vw;
         height: 60vw;
     }
@@ -47,32 +47,39 @@
 /* ---------------------------------------------------------------- */
 /* Page 2 */
     #page2{
-        min-height: 50vh;
+        /* background-color: yellow; */
+        height: max-content;
         padding: 10vw 0;
     }
+    #page2 #stext{
+        height: 20vh;
+    }
     #page2 #stext h3{
-        font-size: 12vw;
+        font-size: 15vw;
+        line-height: 1;
+        padding-bottom: 20px;
     }
 
     #page2 #stext p{
         width: 100%;
+        font-size: 4.2vw;
     }
 
     #page2 #projects{
+        /* background-color: tomato; */
         gap: 30px;
-        min-height: 30vh;
+        min-height: 35vh;
     }
 
     #page2 #projects .slide{
         width: 90%;
     }
+   
     #page2 #projects .slide a{
         font-size: 3vw;
         padding: 5px;
     }
-    #page2 #swipe h2{
-        font-size: 6vw;
-    }
+
 /* ................................................................................................. */
 
 /* Page 3 */
@@ -141,4 +148,111 @@
         margin-top: 10px;
     }
     
+
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* page 5 */
+#page5{
+    width: 100%;
+    height: 75vh;
+    /* background-color: tomato; */
+}
+#page5 #top{
+    width: 100%;
+    height: 20vh;
+    /* background-color: red; */
+}
+
+#page5 #top h1{
+    margin-top: -20px;
+    font-size: 9vw;
+    font-family: gilroy;
+    color: chocolate;
+    line-height: 1;
+    font-weight: 600;
+    text-shadow: 10px 10px 20px chocolate;
+}
+#page5 #top h1 span{
+    font-size: 12vw;
+    /* font-family: burn; */
+    line-height: 1;
+    color: springgreen;
+    text-shadow: 10px 10px 20px springgreen;
+}
+#page5 #top h2{
+    font-size: 5vw;
+    font-family: gilroy;
+    padding-top: 20px;
+}
+
+#page5 #bottom{
+    width: 100%;
+    height: 50vh;
+    /* background-color: springgreen; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 30px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    overflow-x: auto;
+    padding: 0 20px; 
+}
+#page5 #bottom::-webkit-scrollbar{
+    display: none;
+}
+#page5 #bottom .box{
+    width: 90%;
+    height: 50vh;
+    
+}
+
+#page5 #bottom .box .models{
+    width: 100%;
+    height: 80%;
+    /* background-color: tomato; */
+}
+#page5 #bottom .box .models img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#page5 #bottom .box .text{
+    width: 100%;
+    height: 15%;
+    /* background-color: violet; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 10px;
+}
+#page5 #bottom .box .text h2{
+    font-size: 4vw;
+    font-family: gilroy;
+}
+#page5 #bottom .box .text button{
+    display: flex;
+    align-items: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 3vw;
+    background: linear-gradient();
+    text-transform: capitalize;
+    border-radius: 50px;
+    padding: 5px 10px;
+    transition: all 0.5s ease;
+}
+#page5 #bottom .box .text button i{
+    font-size: 3vw;
+    border: 1px dashed gray;
+    border-radius: 50%;
+    padding: 5px;
+}
+#page5 #bottom .box .text button:hover{
+    scale: 1.2;
+    background-color: gray;
+}
+
 }
