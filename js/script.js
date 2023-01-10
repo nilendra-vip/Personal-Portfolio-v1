@@ -12,7 +12,8 @@ function slideCircle(){
             });
         })
 }
-
+slideCircle();
+    
 function slidesSkewMaker(){
     
     var dim = document.querySelector(".slide")
@@ -32,6 +33,7 @@ function slidesSkewMaker(){
         prev = dim2.left;
     })
 }
+slidesSkewMaker();
 
 function loco(){
     const scroll = new LocomotiveScroll({
@@ -41,8 +43,7 @@ function loco(){
 }
 
 loco();
-slidesSkewMaker();
-slideCircle();
+
 
 
 // ------------------------------------------------------------------------------
