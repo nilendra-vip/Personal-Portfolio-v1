@@ -102,7 +102,7 @@ page5.forEach(function(data){
                     </div>
                     <div class="text">
                         <h2>${data.name}</h2>
-                        <button>watch <i class="ri-share-forward-fill"></i></button>
+                        // <button>watch <i class="ri-share-forward-fill"></i></button>
                     </div>
                 </div>`
 })
